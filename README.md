@@ -8,6 +8,7 @@ Our goal for this challenge is to have a cli program that allows us to create pe
 
 This project will consist of two classes, the Cli class which will handle our user inputs and outputs to the terminal and our Pet class which will store the details of our pets.
 
+To run the code, in terminal type `ruby pet_shop.rb`
 
 ## **The Pet Class**
 - has a name
