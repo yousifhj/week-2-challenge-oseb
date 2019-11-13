@@ -27,14 +27,14 @@ Should print:
 ```
     puts "Type '1' to view list of pets"
     puts "Type '2' to create a pet"
-    puts "Type '3' to exit program"
+    puts "Type 'exit' to exit program"
 ```
 
 Should call the `#menu_input` method.
 
 ## #menu_input method
 - Should get `user_input`
-- Should check user_input if they typed 1, 2, or 3, otherwise display `"Invalid Response, Please Try Again"` and call the `#menu` method again.
+- Should check user_input if they typed 1, 2, or exit, otherwise display `"Invalid Response, Please Try Again"` and call the `#menu` method again.
 - If the user typed `"1"` it should call `#list_pets` and then call `#menu` again.
 - If the user typed `"2"` it should call the `#create_pet` method and then call `#menu` again.
 - If the user typed `"exit"` it should display `"Goodbye!"` and exit the program
